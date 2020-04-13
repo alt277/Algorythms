@@ -37,6 +37,7 @@ class CheckBracket {
                                 (ch==')' && (  (chx!='(') || (chx !='(')&& bracketSenior) ))
                             System.out.println("Error: "+ch+" at "+j);
                     }
+
                     else
                         System.out.println("Error: "+ch+" at "+j);
                     break;
@@ -44,6 +45,7 @@ class CheckBracket {
                     break;
             }
         }
+
         if( !theStack.isEmpty() )
             System.out.println("Error: missing right delimiter");
     }
