@@ -28,7 +28,6 @@ class CheckBracket {
                     if( !theStack.isEmpty() )
                     {
                         char chx = theStack.pop();
-
                         if(ch=='}') bracketSenior=true;
                         if(ch==')') bracketMiddle=true;
 
