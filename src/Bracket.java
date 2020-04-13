@@ -45,7 +45,6 @@ class CheckBracket {
                     break;
             }
         }
-
         if( !theStack.isEmpty() )
             System.out.println("Error: missing right delimiter");
     }
